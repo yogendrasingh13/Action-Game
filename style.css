@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -45,7 +48,23 @@ body{
 }
 
 .gameOver {
-    visibility: hidden;
+    position: relative;
+    top: 63px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Rubik Iso', cursive;
+    
+}
+
+#scoreCount {
+    position: relative;
+    top: 35px;
+    border: 2px solid black;
+    width: 151px;
+    padding: 10px;
+    left: 1325px;
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
 }
 @keyframes dino {
     0% {
